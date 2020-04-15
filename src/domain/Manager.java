@@ -4,15 +4,14 @@ package domain;
  * @author User
  */
 public class Manager extends Employee {
-    /** Ініціалізує 
-     * 
-     * @param employees
-     * @param name
-     * @param jobTitle
-     * @param level
-     * @param dept 
-     */
-
+/** Ініціалізує
+ * 
+ * @param employees
+ * @param name
+ * @param jobTitle
+ * @param level
+ * @param dept 
+ */
     public Manager(Employee[] employees, String name, String jobTitle, int level, String dept) {
         super(name, jobTitle, level, dept);
         this.employees = employees;
